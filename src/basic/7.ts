@@ -4,8 +4,8 @@ interface Page {
   accounts: string[];
   status: "open" | "close";
   details?: {
-    createAt: any;
-    updateAt: any;
+    createAt: Date;
+    updateAt: Date;
   };
 }
 
